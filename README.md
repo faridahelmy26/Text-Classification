@@ -6,7 +6,9 @@
 
 <img width="1907" height="968" alt="image" src="https://github.com/user-attachments/assets/44c09677-5c5f-4fff-8da1-7523b45d326b" />
 ---
+
 ## Streamlit Demo
+
 👉 Try the http://localhost:8501/
 
 <img width="1913" height="942" alt="image" src="https://github.com/user-attachments/assets/9ba4d6a0-bcb9-44ec-ba9c-7f15caea2c76" />
