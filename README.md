@@ -2,7 +2,7 @@
 
 ## 🚀 Live Demo
 
-👉 Try the text-classification-production-41b5.up.railway.app/docs
+👉 Try the https://text-classification-production-41b5.up.railway.app/docs
 
 ---
 
