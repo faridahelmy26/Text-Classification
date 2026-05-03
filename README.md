@@ -169,6 +169,15 @@ You can download it from Kaggle and place it in a local `https://www.kaggle.com/
 
 ---
 
+# 🌐 Live Demo
+
+You can try the deployed API here:
+
+👉 text-classification-production-41b5.up.railway.app
+
+<img width="1907" height="968" alt="image" src="https://github.com/user-attachments/assets/44c09677-5c5f-4fff-8da1-7523b45d326b" />
+
+---
 # 👩‍💻 Author
 
 **Farida Helmy**
