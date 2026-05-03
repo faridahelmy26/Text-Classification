@@ -1,4 +1,4 @@
-# 📌 Text Classification API
+# 📌 Text Classification 
 
 ## 🚀 Overview
 
