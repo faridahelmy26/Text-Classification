@@ -1,20 +1,26 @@
 # 📌 Text Classification 
 
-## 🚀 Overview
+## 🚀 Live Demo
+
+👉 Try the API: https://your-railway-app.up.railway.app/docs
+
+---
+
+## 🧠 Overview
 
 This project is a **Machine Learning-based Text Classification system** that classifies input text into predefined categories:
 
-* Politics 🏛️
-* Sports ⚽
-* Technology 💻
-* Entertainment 🎬
-* Business 💼
+- Politics 🏛️  
+- Sports ⚽  
+- Technology 💻  
+- Entertainment 🎬  
+- Business 💼  
 
 The model is trained using **TF-IDF vectorization** and **Logistic Regression**, and deployed using **FastAPI** as a RESTful API.
 
 ---
 
-# 🧠 Project Pipeline
+## 🧠 Project Pipeline
 
 1. Data Collection (Kaggle Dataset)
 2. Data Preprocessing (Cleaning, Tokenization)
@@ -22,11 +28,12 @@ The model is trained using **TF-IDF vectorization** and **Logistic Regression**,
 4. Model Training (Logistic Regression)
 5. Model Saving (Pickle files)
 6. API Development (FastAPI)
-7. Prediction via REST API
+7. Deployment (Railway)
+8. Frontend Integration (Streamlit)
 
 ---
 
-# 🏗️ Project Structure
+## 🏗️ Project Structure
 
 ```text
 Text-Classification/
@@ -47,11 +54,11 @@ Text-Classification/
 ├── requirements.txt
 ├── Text_Classification.ipynb
 ├── README.md
-```
+````
 
 ---
 
-# ⚙️ Technologies Used
+## ⚙️ Technologies Used
 
 * Python 🐍
 * Scikit-learn 🤖
@@ -61,43 +68,33 @@ Text-Classification/
 * FastAPI ⚡
 * Uvicorn 🚀
 * Joblib 📦
+* Streamlit 🎨
 
 ---
 
-# 🚀 How to Run the Project Locally
+## 🚀 How to Run Locally
 
-## 1️⃣ Clone the repository
+### 1️⃣ Clone Repository
 
 ```bash
 git clone https://github.com/faridahelmy26/Text-Classification.git
 cd Text-Classification
 ```
 
----
-
-## 2️⃣ Create virtual environment
+### 2️⃣ Create Virtual Environment
 
 ```bash
 python -m venv env
-```
-
-Activate it:
-
-```bash
 env\Scripts\activate
 ```
 
----
-
-## 3️⃣ Install dependencies
+### 3️⃣ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
----
-
-## 4️⃣ Run the API
+### 4️⃣ Run API
 
 ```bash
 uvicorn app.main:app --reload
@@ -105,23 +102,15 @@ uvicorn app.main:app --reload
 
 ---
 
-## 5️⃣ Open API docs
+## 📡 API Usage
 
-```
-http://127.0.0.1:8000/docs
-```
-
----
-
-# 📡 API Usage
-
-## 🔹 Endpoint
+### 🔹 Endpoint
 
 ```
 POST /predict
 ```
 
-## 🔹 Request Body
+### 🔹 Request Body
 
 ```json
 {
@@ -129,11 +118,10 @@ POST /predict
 }
 ```
 
-## 🔹 Response
+### 🔹 Response
 
 ```json
 {
-  "input_text": "The football team won the championship",
   "prediction": "Sports",
   "confidence": 0.85
 }
@@ -141,7 +129,7 @@ POST /predict
 
 ---
 
-# 📊 Model Performance
+## 📊 Model Performance
 
 * Algorithm: Logistic Regression
 * Feature Extraction: TF-IDF
@@ -149,23 +137,28 @@ POST /predict
 * Evaluation: Accuracy-based classification
 
 ---
+## confusion matrix
+<img width="658" height="267" alt="WhatsApp Image 2026-05-03 at 8 15 58 PM" src="https://github.com/user-attachments/assets/ae9af70c-767a-4247-b344-531bd5d5a524" />
+---
 
-# 📁 Dataset
+## 📁 Dataset
 
-Dataset used from Kaggle (Text Classification Dataset).
+Dataset used from Kaggle:
 
-👉 Not included in repository due to size.
-You can download it from Kaggle and place it in a local `https://www.kaggle.com/datasets/tanishqdublish/text-classification-documentation?resource=download` folder.
+👉 [https://www.kaggle.com/datasets/tanishqdublish/text-classification-documentation](https://www.kaggle.com/datasets/tanishqdublish/text-classification-documentation)
+
+⚠️ Not included in repository due to size.
 
 ---
 
-# 🔥 Features
+## 🔥 Features
 
 ✔ Real-time text prediction
 ✔ REST API using FastAPI
 ✔ Machine Learning pipeline
-✔ Easy to extend with new classes
-✔ Lightweight and fast inference
+✔ Streamlit UI integration
+✔ Cloud deployment (Railway)
+✔ Lightweight & fast inference
 
 ---
 
@@ -178,12 +171,14 @@ You can try the deployed API here:
 <img width="1907" height="968" alt="image" src="https://github.com/user-attachments/assets/44c09677-5c5f-4fff-8da1-7523b45d326b" />
 
 ---
-# 👩‍💻 Author
+## 👩‍💻 Author
 
 **Farida Helmy**
 
 ---
 
-# ⭐ If you like this project
+## ⭐ If you like this project
 
 Give it a ⭐ on GitHub!
+
+```
