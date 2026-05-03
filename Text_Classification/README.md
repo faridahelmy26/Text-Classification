@@ -1,8 +1,4 @@
-تمام 👍 ده **README كامل واحترافي** تقدري تحطيه مباشرة في مشروعك على GitHub:
-
----
-
-# 📌 Text Classification API
+# 📌 Text Classification 
 
 ## 🚀 Overview
 
@@ -177,7 +173,6 @@ You can download it from Kaggle and place it in a local `https://www.kaggle.com/
 
 **Farida Helmy**
 
----
 
 # ⭐ If you like this project
 
